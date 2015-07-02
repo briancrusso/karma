@@ -41,5 +41,10 @@ a:hover {
 
     .links {
     	font-size: .75em;
+        float: left;
+    }
+
+    header {
+        margin-left: 0em;
     }
 }
