@@ -40,8 +40,13 @@ a:hover {
     }
 
     .links {
-    	font-size: .75em;
+    	font-size: 1em;
         float: left;
+        text-align: center;
+    }
+
+    li {
+        padding-top: 5em;
     }
 
     header {
