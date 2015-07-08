@@ -92,7 +92,7 @@ a:hover {
 .cases {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     margin-top: 7.875rem;
     color: #1d1e21;
     text-align: center;
@@ -114,6 +114,37 @@ a:hover {
 
 .devices h3 {
     font-size: 1.5rem;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 2.735rem;
+    text-align: center;
+}
+
+.circle {
+    border: 1px solid black;
+    border-radius: 1.25rem 5rem;    
+    padding: .5rem;
+    border-color: darkgray;
+    width: 1rem;
+}
+
+hr {
+    width:60%;
+}
+
+span.copy {
+    padding-left: 3em;
+}
+
+.icons ul {
+    display: inline;
+}
+
+.icons li {
+    display: inline-block;
 }
 
 @media only screen and (max-width: 650px) {
@@ -149,10 +180,15 @@ a:hover {
 
     .cases {
         margin-top: 2em;
+        padding-bottom: 1em;
     }
 
     .cases h2 {
         font-size: 1.5em;
+    }
+
+    .devices {
+        padding: .25em;
     }
 
     .devices img {
@@ -160,7 +196,11 @@ a:hover {
     }
 
     .devices h3 {
-        font-size: .5em;
+        font-size: .4em;
         margin-top: -1em;
+    }
+
+    .icons {
+        margin-top: -4em;
     }
 }
