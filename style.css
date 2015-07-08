@@ -9,6 +9,7 @@ header {
 img {
     margin-left: 5em;
 }
+
 .links {
     float: right;
     color: #838994;
@@ -36,35 +37,48 @@ a:hover {
 }
 
 .introduction {
-background-image: url(images/first-background.jpg);
-background-position: center bottom;
-background-repeat: no-repeat;
-background-size: cover;
-height: 45.938em;
-overflow: auto;
+    background-image: url(images/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938em;
+    overflow: auto;
+}
+
+
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    top: 10em;
+    padding: 2em;
 }
 
 @media only screen and (max-width: 650px) {
     .logo {
         display: none;
     }
-
     .links {
-    	font-size: 1em;
+        font-size: 1em;
         float: left;
         text-align: center;
     }
-
     li {
         padding-top: 5em;
     }
-
     header {
         margin-left: 0em;
     }
-
     .introduction {
         background-size: 45em;
         background-position: top;
+    }
+
+    .introduction h1,
+    .introduction h3 {
+        top: 4.5em;
+        padding: .5em;
     }
 }
