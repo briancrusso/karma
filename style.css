@@ -54,8 +54,6 @@ a:hover {
     overflow: auto;
 }
 
-
-.introduction h1,
 .introduction h3 {
     color: white;
     text-align: center;
@@ -63,6 +61,16 @@ a:hover {
     position: relative;
     top: 10em;
     padding: 2em;
+}
+
+
+.introduction h1 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    position: relative;
+    top: 4em;
 }
 
 .introduction .buttons {
@@ -147,6 +155,42 @@ span.copy {
     display: inline-block;
 }
 
+.end-tag h1 {
+    color: white;
+}
+
+.end-tag h3 {
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .15rem;
+    color: white;
+    text-align: center;
+    margin: 0 2rem;
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+
+.end-tag {
+    background-color: darkgray;
+    padding-bottom: 9.735rem;
+    text-align: center;
+    height: 10rem;
+    padding-top: 2.5rem;
+}
+
+.end-tag span {
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+.end-tag span a:link, 
+.end-tag span a:visited {
+    color: white;
+}
+
+.end-tag span a:hover {
+    color: lightgray;
+}
+
 @media only screen and (max-width: 650px) {
     .logo {
         display: none;
@@ -168,11 +212,15 @@ span.copy {
         height: 20em;
     }
 
-    .introduction h1,
     .introduction h3 {
         top: 4.5em;
         padding: .5em;
     }
+
+       .introduction h1 {
+        font-size: 2.5em;
+        top: 2.5em;
+       }
 
     .introduction .buttons {
         top: 4.5em;
@@ -202,5 +250,17 @@ span.copy {
 
     .icons {
         margin-top: -4em;
+    }
+
+    .social-content {
+        margin-left: -2em;
+    }
+
+    .end-tag h3 {
+        font-size: .75em;
+    } 
+
+    .end-tag h1 {
+        font-size: 1.5em;
     }
 }
